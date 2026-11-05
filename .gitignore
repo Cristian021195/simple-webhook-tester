@@ -1,0 +1,33 @@
+# Ignoramos variables de entorno
+.env 
+
+# Ignoramos liberias de composer
+/vendor
+/vendor/
+vendor/
+vendor/*
+
+# Ignoramos comprimidos
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.gz
+
+# Ignoramos /notas personales de cada programador
+/notas
+/notas/
+/notas*
+/notas/*
+
+# Solo archivos de la raíz del proyecto
+/*.csv
+/*.xls
+/*.xlsx
+/*.txt
+
+# Archivos de cualquier carpeta del proyecto
+*.doc
+*.docx
+*.exe
